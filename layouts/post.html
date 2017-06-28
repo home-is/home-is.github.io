@@ -4,18 +4,24 @@
   <meta charset="UTF-8" />
   <title>{{ title }}</title>
   <meta name="description" content="{{ description }}">
+  <link href="https://fonts.googleapis.com/css?family=Ledger|Nixie+One" rel="stylesheet">
+  <link href="../../assets/base.css" rel="stylesheet" />
 </head>
 <body>
-  <header>
-    <p>
+  <header class="cols align-end">
+    <img src="../../assets/images/logo.png">
+    <nav>
       <a href="/">Home</a>
-    </p>
+      <a href="/">About</a>
+      <a href="/">Contact</a>
+    </nav>
   </header>
-  <h1>{{ title }}</h1>
-  <time>{{ date }}</time>
+  <article>
+  <header>
+    <h1>{{ title }}</h1>
+    <time>{{ date }}</time>
+  </header>
   {{{ contents }}}
-  <footer>
-    <p>Generated with {{ generator }} &mdash; <a href="{{ url }}">{{ url }}</a></p>
-  </footer>
+  </article>
 </body>
 </html>

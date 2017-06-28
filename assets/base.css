@@ -33,7 +33,7 @@ strong { font-size: 1em; line-height: 1.375em; }
 /* layout */
 
 header {
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
 }
 header nav {
   text-align: right;

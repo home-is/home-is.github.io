@@ -2,6 +2,7 @@
 title: Twenty Years in Tahoe
 draft: true
 layout: post.html
+date: 2017-04-22
 ---
 Twenty years ago in April 1997 I visited Lake Tahoe for the first time to decide if it would be my new home. Some high school friends and I talked about moving up to Big Bear in Southern California where we liked to snowboard close to home when somebody suggested going somewhere better like Lake Tahoe. I had never been so it made sense to check it out first. I drove into the Tahoe Basin via Mt. Rose Highway, saw the lake and was sold. I officially moved to Tahoe Labor Day weekend the same year.
 

@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>{{ title }}</title>
+  <link href="https://fonts.googleapis.com/css?family=Ledger|Nixie+One" rel="stylesheet">
+  <link href="assets/base.css" rel="stylesheet" />
+</head>
+<body>
+  <header class="cols align-end">
+    <img src="assets/images/logo.png">
+    <nav>
+      <a href="/">Home</a>
+      <a href="/">About</a>
+      <a href="/">Contact</a>
+    </nav>
+  </header>
+  {{#each collections.posts }}
+    <article class="minimal">
+      <header>
+        <h2>{{ this.title }}</h2>
+        <img src="file:///Users/kyle/Source/home-is.github.io/assets/images/001.jpg" />
+      </header>
+      {{{ this.contents }}}
+      <a href="{{ this.path }}/index.html" class="more">More...</a>
+      <footer>
+
+      </footer>
+    </article>
+  {{/each}}
+  <footer></footer>
+</body>
+</html>

@@ -1,0 +1,6 @@
+article.minimal p {
+  display: none;
+}
+article.minimal p:first-of-type {
+  display: block;
+}

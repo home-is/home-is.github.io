@@ -3,7 +3,9 @@
 <head>
   <meta charset="UTF-8" />
   <title>{{ title }}</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link href="https://fonts.googleapis.com/css?family=Ledger|Nixie+One" rel="stylesheet">
+  <link href="assets/css/font-awesome.min.css" rel="stylesheet" />
   <link href="assets/css/story.css" rel="stylesheet" />
   <link href="assets/css/custom.css" rel="stylesheet" />
 </head>
@@ -47,5 +49,18 @@
       </section>
     {{/if }}
   {{/each }}
+  <a href="#search" class="jumper icon style2 fa fa-map-marker">
+    <span class="label">Search</span>
+  </a>
+  <section id="search">
+    <a href="#search" class="icon style2 fa-map-marker">
+      <span class="label">Search</span>
+    </a>
+    <nav>
+      <a href="/">Home</a>
+      <a href="/">About</a>
+      <a href="/">Contact</a>
+    </nav>
+  </section>
 </body>
 </html>

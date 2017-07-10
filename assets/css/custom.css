@@ -1,6 +1,42 @@
-article.minimal p {
-  display: none;
+
+body > footer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  padding: 8px;
 }
-article.minimal p:first-of-type {
-  display: block;
+body > footer > .logo {
+  height: 2rem;
+}
+body > footer > nav {
+  display: flex;
+  flex-direction: row;
+}
+body > footer > nav > a {
+  font-size: 2rem;
+  text-decoration: none;
+}
+
+a.icon.style2:before { background: rgba(255, 255, 255, .25); }
+
+article.minimal p { display: none; }
+article.minimal p:first-of-type { display: block }
+
+.jumper {
+  position: fixed;
+  bottom: 16px;
+  margin-left: 8px;
+}
+
+#search {
+  background: #fff;
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  padding: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
 }

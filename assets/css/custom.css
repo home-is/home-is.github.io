@@ -26,7 +26,7 @@ article.minimal p:first-of-type { display: block }
 .jumper {
   position: fixed;
   bottom: 16px;
-  margin-left: 8px;
+  right: 8px;
 }
 
 #search {
@@ -38,5 +38,5 @@ article.minimal p:first-of-type { display: block }
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  align-items: flex-start;
+  align-items: flex-end;
 }
